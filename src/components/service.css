@@ -1,0 +1,76 @@
+.services{
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    grid-gap: 20px;
+    margin: 40px;
+    margin-bottom: 130px;
+    margin-top: 80px;
+    
+}
+
+.service-title{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.service-contetnt{
+   text-align: center;
+   align-items: center;
+}
+.maincontainer{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin-bottom: 5rem;
+}
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront,
+.theback {
+  position: absolute;
+  width: 100%; /* Set both the front and back faces to the container width */
+  height: 100%;
+  backface-visibility: hidden;
+}
+.theback {
+  transform: rotateY(180deg);
+  /* Additional styles for the back face */
+}
+.wetakecare{
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    grid-gap: 20px;
+    margin: 40px;
+    margin-bottom: 180px;
+    margin-top: 80px;
+}
+.input-address{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit,minmax(22%,1fr)); */
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+   
+    
+}
+.input-add>input{
+    padding-right: 16rem;
+}
+
+@media screen and (max-width: 640px) {
+    .services{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    
+    }
+    
+}

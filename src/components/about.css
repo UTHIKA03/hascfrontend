@@ -1,0 +1,178 @@
+.hero-wrap {
+    color: black;
+    padding-bottom: 2rem;
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 4rem;
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6rem;
+  }
+  
+  .about-title {
+    position: relative;
+  }
+  
+  .about-title>h1{
+    padding-left: 80px;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 8rem;
+  }
+  .about-title>p{
+    
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    color: black;
+  }
+  
+  .image-contain {
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .image-contain > img {
+    width: 115%;
+    height: 92%;
+    border-radius: 20px;
+  }
+  
+  .flexColStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+  
+  .slide {
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  .slide-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
+  }
+  
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  .hero-tech {
+    color: black;
+    /* padding-bottom: 10px; */
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    max-width: 100vw;
+    min-height: calc(60vh - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(10, 20, 93, 0.6),rgba(10, 20, 93, 0.6)),url('https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg?w=1380&t=st=1689526900~exp=1689527500~hmac=b908aea3c7ec4c0f03fc85e8f4dd1f3f5e29ebe6e23fda8ba1704381bdd13c86');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+  
+  .paddings {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  
+  .flextech {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .tech-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 42rem; /* Changed padding-right to padding-left */
+    width: 50%;
+  }
+  
+  .tech-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 6rem; /* Changed padding-left to padding-right */
+    width: 50%;
+  }
+  
+  .image-tech {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  

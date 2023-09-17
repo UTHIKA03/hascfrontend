@@ -1,0 +1,62 @@
+/* .container{
+  max-width: 1290px;
+  margin: 0 auto;
+  position: relative;
+  width: calc(100% - 30px);
+} */
+.review-container{
+  display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr;
+    grid-gap: 20px;
+    margin: 40px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    
+}
+.content-body{
+  position: relative;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: black;
+}
+.review-form {
+  display: block;
+}
+
+.rew-list {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  background: #f2f4fa;
+  color: #0d1a34;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #868d9a;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.rew-rating span {
+  font-size: 20px;
+  color: gold;
+  padding: 0 2px;
+}
+.rew-text>p{
+  color: #0d1a34;
+  position: relative;
+}
+.rew-list .rew-autor {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0d1a34;
+  margin: 20px 0 0;
+}
